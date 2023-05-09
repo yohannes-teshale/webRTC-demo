@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Realtime communication with WebRTC-Demo</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+  <h1>Realtime communication with WebRTC-Demo</h1>
+  <div class="container">
+
+    <div class="caller">
+      <p>Caller</p>
+      <video id="localVideo" autoplay playsinline></video>
+    </div>
+    <div>
+      <p >Reciever</p>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    
+  </div>
+
+<div>
+  <button id="startButton">Start</button>
+  <button id="callButton">Call</button>
+  <button id="hangupButton">Hang Up</button>
+</div>
+
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
